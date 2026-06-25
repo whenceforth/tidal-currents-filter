@@ -1,0 +1,37 @@
+Station data : SFB1202_17_Annual_2026.txt
+Slack window : 10:00–12:00  (secondary: –13:00)
+Min ebb      : 2.0h
+Candidates   : 12 primary, 7 secondary
+▶ = weekend   H = US holiday   ? = secondary window   [score = relative quality]
+
+── July 2026 ─────────────────────────────────────────────────────
+▶   2026-07-11  Sat  slack 11:54  ebb -0.8 kts @ 13:56  end 15:55  (4h01m)  next flood +3.0 @ 20:01  [8h07m to flood]  [2.8]
+▶ ? 2026-07-12  Sun  slack 12:44  ebb -0.9 kts @ 14:49  end 17:03  (4h19m)  next flood +3.0 @ 20:56  [8h12m to flood]  [1.1]
+▶ ? 2026-07-25  Sat  slack 12:12  ebb -0.7 kts @ 13:56  end 16:00  (3h48m)  next flood +2.0 @ 19:50  [7h38m to flood]  [0.6]
+▶ ? 2026-07-26  Sun  slack 12:53  ebb -0.8 kts @ 14:42  end 16:58  (4h05m)  next flood +2.0 @ 20:38  [7h45m to flood]  [0.8]
+
+── August 2026 ─────────────────────────────────────────────────────
+▶   2026-08-08  Sat  slack 10:41  ebb -0.8 kts @ 12:52  end 14:49  (4h08m)  next flood +2.5 @ 18:44  [8h03m to flood]  [3.1]
+▶   2026-08-09  Sun  slack 11:33  ebb -1.0 kts @ 13:47  end 16:04  (4h31m)  next flood +2.7 @ 19:46  [8h13m to flood]  [3.3]
+▶   2026-08-22  Sat  slack 11:00  ebb -0.7 kts @ 12:46  end 14:54  (3h54m)  next flood +1.4 @ 18:27  [7h27m to flood]  [2.8]
+▶   2026-08-23  Sun  slack 11:42  ebb -0.8 kts @ 13:35  end 16:02  (4h20m)  next flood +1.6 @ 19:26  [7h44m to flood]  [3.0]
+
+── September 2026 ─────────────────────────────────────────────────────
+▶   2026-09-06  Sun  slack 10:19  ebb -0.9 kts @ 12:42  end 15:03  (4h44m)  next flood +2.2 @ 18:29  [8h10m to flood]  [3.5]
+ H  2026-09-07  Mon  slack 11:07  ebb -1.2 kts @ 13:38  end 16:27  (5h20m)  next flood +2.5 @ 19:36  [8h29m to flood]  [4.0]  (Labor Day)
+▶   2026-09-20  Sun  slack 10:31  ebb -0.7 kts @ 12:22  end 14:48  (4h17m)  next flood +1.0 @ 17:53  [7h22m to flood]  [3.1]
+
+── October 2026 ─────────────────────────────────────────────────────
+▶ ? 2026-10-24  Sat  slack 12:05  ebb -2.5 kts @ 15:01  end 18:54  (6h49m)  next flood +2.7 @ 21:52  [9h47m to flood]  [3.9]
+▶ ? 2026-10-25  Sun  slack 12:32  ebb -2.9 kts @ 15:30  end 19:34  (7h02m)  next flood +3.0 @ 22:38  [10h06m to flood]  [4.4]
+
+── November 2026 ─────────────────────────────────────────────────────
+▶   2026-11-07  Sat  slack 10:58  ebb -2.8 kts @ 14:16  end 18:27  (7h29m)  next flood +3.1 @ 21:07  [10h09m to flood]  [6.7]
+▶   2026-11-08  Sun  slack 11:31  ebb -2.8 kts @ 14:51  end 19:10  (7h39m)  next flood +3.3 @ 21:54  [10h23m to flood]  [6.7]
+▶   2026-11-22  Sun  slack 10:19  ebb -2.9 kts @ 13:21  end 17:36  (7h17m)  next flood +2.7 @ 20:33  [10h14m to flood]  [6.8]
+ H? 2026-11-26  Thu  slack 12:59  ebb -3.3 kts @ 15:56  end 20:27  (7h28m)  next flood +3.5 @ 23:39  [10h40m to flood]  [5.0]  (Thanksgiving Day)
+
+── December 2026 ─────────────────────────────────────────────────────
+▶   2026-12-06  Sun  slack 10:23  ebb -2.6 kts @ 13:44  end 18:09  (7h46m)  next flood +3.0 @ 20:53  [10h30m to flood]  [6.7]
+ H? 2026-12-25  Fri  slack 12:52  ebb -2.9 kts @ 15:54  end 20:21  (7h29m)  next flood +3.6 @ 23:21  [10h29m to flood]  [4.6]  (Christmas Day)
+
