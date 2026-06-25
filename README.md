@@ -7,10 +7,10 @@ A "good day" is one where the flood→ebb slack falls in a target morning window
 ## Usage
 
 ```bash
-uv run tide-filter.py data/SFB1202_17_Annual_2026.txt
-uv run tide-filter.py data/SFB1202_17_Annual_2026.txt --weekends-and-holidays-only
-uv run tide-filter.py data/SFB1202_17_Annual_2026.txt --after 2026-07-01 --before 2026-09-30
-uv run tide-filter.py data/SFB1202_17_Annual_2026.txt --window-open 09:30 --window-close 12:30
+uv run current-filter.py data/SFB1202_17_Annual_2026.txt
+uv run current-filter.py data/SFB1202_17_Annual_2026.txt --weekends-and-holidays-only
+uv run current-filter.py data/SFB1202_17_Annual_2026.txt --after 2026-07-01 --before 2026-09-30
+uv run current-filter.py data/SFB1202_17_Annual_2026.txt --window-open 09:30 --window-close 12:30
 ```
 
 No setup required. `uv run` installs the `holidays` dependency automatically via the PEP 723 inline script metadata.
