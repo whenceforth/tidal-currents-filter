@@ -1,0 +1,128 @@
+Station data : SFB1202_17_Annual_2026.txt
+Slack window : 10:00–12:00  (secondary: –13:00)
+Min ebb      : 2.0h
+Candidates   : 33 primary, 22 secondary
+▶ = weekend   H = US holiday   ? = secondary window   [score = relative quality]
+
+── July 2026 ─────────────────────────────────────────────────────
+    2026-07-10  Fri  slack 10:56  ebb -0.8 kts @ 13:02  end 14:55  (3h59m)  next flood +2.9 @ 19:06  [8h10m to flood]  [3.0]
+     🌘 51.6°  decl +24.4°  dist 364k km  peri in 3d  alt 66.8° WSW
+▶   2026-07-11  Sat  slack 11:54  ebb -0.8 kts @ 13:56  end 15:55  (4h01m)  next flood +3.0 @ 20:01  [8h07m to flood]  [2.8]
+     🌘 37.3°  decl +27.2°  dist 361k km  peri in 2d  alt 69.5° WSW
+▶ ? 2026-07-12  Sun  slack 12:44  ebb -0.9 kts @ 14:49  end 17:03  (4h19m)  next flood +3.0 @ 20:56  [8h12m to flood]  [1.1]
+     🌘 22.8°  decl +28.0°  dist 359k km  peri in 1d  alt 72.8° WSW
+    2026-07-23  Thu  slack 10:24  ebb -0.6 kts @ 12:11  end 14:01  (3h37m)  next flood +2.2 @ 18:03  [7h39m to flood]  [2.6]
+     🌔 115.2°  decl -24.2°  dist 403k km  apo in 2d  alt -63.4° ENE
+    2026-07-24  Fri  slack 11:25  ebb -0.6 kts @ 13:07  end 14:59  (3h34m)  next flood +2.0 @ 18:59  [7h34m to flood]  [2.5]
+     🌔 126.5°  decl -26.8°  dist 405k km  apo in 1d  alt -62.7° ENE
+▶ ? 2026-07-25  Sat  slack 12:12  ebb -0.7 kts @ 13:56  end 16:00  (3h48m)  next flood +2.0 @ 19:50  [7h38m to flood]  [0.6]
+     🌔 137.7°  decl -28.0°  dist 405k km  apo in 0d  alt -64.0° ENE
+▶ ? 2026-07-26  Sun  slack 12:53  ebb -0.8 kts @ 14:42  end 16:58  (4h05m)  next flood +2.0 @ 20:38  [7h45m to flood]  [0.8]
+     🌔 148.9°  decl -27.8°  dist 404k km  apo 1d ago  alt -65.8° ENE
+
+── August 2026 ─────────────────────────────────────────────────────
+▶   2026-08-08  Sat  slack 10:41  ebb -0.8 kts @ 12:52  end 14:49  (4h08m)  next flood +2.5 @ 18:44  [8h03m to flood]  [3.1]
+     🌘 54.9°  decl +28.0°  dist 365k km  peri in 2d  alt 70.5° WSW
+▶   2026-08-09  Sun  slack 11:33  ebb -1.0 kts @ 13:47  end 16:04  (4h31m)  next flood +2.7 @ 19:46  [8h13m to flood]  [3.3]
+     🌘 40.8°  decl +27.5°  dist 363k km  peri in 1d  alt 72.3° WSW
+  ? 2026-08-10  Mon  slack 12:18  ebb -1.2 kts @ 14:39  end 17:20  (5h02m)  next flood +2.9 @ 20:45  [8h27m to flood]  [1.7]
+     🌘 26.5°  decl +24.9°  dist 363k km  peri in 0d  alt 73.1° SW
+  ? 2026-08-11  Tue  slack 13:00  ebb -1.4 kts @ 15:33  end 18:29  (5h29m)  next flood +3.1 @ 21:41  [8h41m to flood]  [2.1]
+     🌑 12.4°  decl +20.6°  dist 364k km  peri 1d ago  alt 71.1° SSW
+    2026-08-21  Fri  slack 10:07  ebb -0.6 kts @ 11:49  end 13:39  (3h32m)  next flood +1.5 @ 17:24  [7h17m to flood]  [2.6]
+     🌓 107.5°  decl -27.7°  dist 404k km  apo in 1d  alt -63.5° ENE
+▶   2026-08-22  Sat  slack 11:00  ebb -0.7 kts @ 12:46  end 14:54  (3h54m)  next flood +1.4 @ 18:27  [7h27m to flood]  [2.8]
+     🌔 118.8°  decl -28.1°  dist 404k km  apo in 0d  alt -63.3° ENE
+▶   2026-08-23  Sun  slack 11:42  ebb -0.8 kts @ 13:35  end 16:02  (4h20m)  next flood +1.6 @ 19:26  [7h44m to flood]  [3.0]
+     🌔 130.0°  decl -27.0°  dist 403k km  apo 1d ago  alt -64.5° ENE
+  ? 2026-08-24  Mon  slack 12:18  ebb -0.9 kts @ 14:18  end 16:57  (4h39m)  next flood +1.8 @ 20:16  [7h58m to flood]  [1.2]
+     🌔 141.3°  decl -24.6°  dist 401k km  apo 2d ago  alt -65.6° ENE
+  ? 2026-08-25  Tue  slack 12:50  ebb -1.1 kts @ 15:00  end 17:42  (4h52m)  next flood +2.0 @ 21:02  [8h12m to flood]  [1.5]
+     🌔 152.8°  decl -21.1°  dist 398k km  apo 3d ago  alt -65.8° NE
+
+── September 2026 ─────────────────────────────────────────────────────
+▶   2026-09-06  Sun  slack 10:19  ebb -0.9 kts @ 12:42  end 15:03  (4h44m)  next flood +2.2 @ 18:29  [8h10m to flood]  [3.5]
+     🌘 58.2°  decl +26.2°  dist 368k km  peri in 0d  alt 72.3° SW
+ H  2026-09-07  Mon  slack 11:07  ebb -1.2 kts @ 13:38  end 16:27  (5h20m)  next flood +2.5 @ 19:36  [8h29m to flood]  [4.0]  (Labor Day)
+     🌘 44.4°  decl +22.6°  dist 368k km  peri 1d ago  alt 70.9° SW
+    2026-09-08  Tue  slack 11:49  ebb -1.5 kts @ 14:29  end 17:39  (5h50m)  next flood +2.8 @ 20:37  [8h48m to flood]  [4.4]
+     🌘 30.7°  decl +17.6°  dist 369k km  peri 2d ago  alt 67.7° SSW
+  ? 2026-09-09  Wed  slack 12:30  ebb -1.8 kts @ 15:19  end 18:41  (6h11m)  next flood +3.1 @ 21:33  [9h03m to flood]  [2.9]
+     🌑 17.2°  decl +11.6°  dist 372k km  peri 3d ago  alt 62.5° SSW
+▶   2026-09-20  Sun  slack 10:31  ebb -0.7 kts @ 12:22  end 14:48  (4h17m)  next flood +1.0 @ 17:53  [7h22m to flood]  [3.1]
+     🌓 110.3°  decl -25.7°  dist 402k km  apo 2d ago  alt -62.5° ENE
+    2026-09-21  Mon  slack 11:09  ebb -0.9 kts @ 13:11  end 15:57  (4h48m)  next flood +1.3 @ 18:58  [7h49m to flood]  [3.4]
+     🌔 121.6°  decl -22.6°  dist 399k km  apo 3d ago  alt -62.6° ENE
+    2026-09-22  Tue  slack 11:40  ebb -1.1 kts @ 13:53  end 16:50  (5h10m)  next flood +1.6 @ 19:52  [8h12m to flood]  [3.7]
+     🌔 133.1°  decl -18.5°  dist 396k km  apo 4d ago  alt -62.3° NE
+  ? 2026-09-23  Wed  slack 12:07  ebb -1.4 kts @ 14:31  end 17:36  (5h29m)  next flood +1.9 @ 20:40  [8h33m to flood]  [2.1]
+     🌔 144.9°  decl -13.4°  dist 392k km  apo 5d ago  alt -60.7° NE
+  ? 2026-09-24  Thu  slack 12:31  ebb -1.6 kts @ 15:08  end 18:19  (5h48m)  next flood +2.3 @ 21:25  [8h54m to flood]  [2.5]
+     🌔 156.8°  decl -7.7°  dist 387k km  apo 6d ago  alt -57.7° NNE
+  ? 2026-09-25  Fri  slack 12:55  ebb -2.0 kts @ 15:42  end 19:02  (6h07m)  next flood +2.6 @ 22:10  [9h15m to flood]  [3.1]
+     🌕 169.0°  decl -1.5°  dist 383k km  peri in 6d  alt -53.2° NNE
+
+── October 2026 ─────────────────────────────────────────────────────
+    2026-10-06  Tue  slack 10:39  ebb -1.5 kts @ 13:27  end 16:42  (6h03m)  next flood +2.3 @ 19:27  [8h48m to flood]  [4.7]
+     🌘 48.8°  decl +13.8°  dist 375k km  peri 5d ago  alt 63.6° SSW
+    2026-10-07  Wed  slack 11:20  ebb -1.9 kts @ 14:16  end 17:47  (6h27m)  next flood +2.7 @ 20:29  [9h09m to flood]  [5.2]
+     🌘 35.7°  decl +7.6°  dist 377k km  peri 6d ago  alt 58.1° SSW
+    2026-10-08  Thu  slack 11:58  ebb -2.3 kts @ 15:02  end 18:44  (6h46m)  next flood +3.0 @ 21:25  [9h27m to flood]  [5.7]
+     🌘 23.0°  decl +1.2°  dist 380k km  peri 7d ago  alt 52.0° SSW
+  ? 2026-10-09  Fri  slack 12:34  ebb -2.5 kts @ 15:46  end 19:36  (7h02m)  next flood +3.2 @ 22:17  [9h43m to flood]  [4.0]
+     🌑 10.7°  decl -5.2°  dist 384k km  apo in 7d  alt 45.9° S
+    2026-10-20  Tue  slack 10:31  ebb -0.9 kts @ 12:41  end 15:35  (5h04m)  next flood +1.1 @ 18:23  [7h52m to flood]  [3.7]
+     🌔 112.8°  decl -15.6°  dist 395k km  apo 4d ago  alt -58.0° NE
+    2026-10-21  Wed  slack 10:56  ebb -1.3 kts @ 13:23  end 16:35  (5h39m)  next flood +1.4 @ 19:24  [8h28m to flood]  [4.3]
+     🌔 124.5°  decl -10.2°  dist 390k km  apo 5d ago  alt -56.4° NE
+    2026-10-22  Thu  slack 11:18  ebb -1.7 kts @ 14:00  end 17:25  (6h07m)  next flood +1.8 @ 20:16  [8h58m to flood]  [4.9]
+     🌔 136.5°  decl -4.3°  dist 385k km  apo 6d ago  alt -53.5° NNE
+    2026-10-23  Fri  slack 11:40  ebb -2.1 kts @ 14:32  end 18:11  (6h31m)  next flood +2.3 @ 21:05  [9h25m to flood]  [5.4]
+     🌔 148.8°  decl +2.0°  dist 379k km  peri in 5d  alt -49.3° NNE
+▶ ? 2026-10-24  Sat  slack 12:05  ebb -2.5 kts @ 15:01  end 18:54  (6h49m)  next flood +2.7 @ 21:52  [9h47m to flood]  [3.9]
+     🌕 161.5°  decl +8.4°  dist 374k km  peri in 4d  alt -44.0° N
+▶ ? 2026-10-25  Sun  slack 12:32  ebb -2.9 kts @ 15:30  end 19:34  (7h02m)  next flood +3.0 @ 22:38  [10h06m to flood]  [4.4]
+     🌕 173.5°  decl +14.5°  dist 370k km  peri in 3d  alt -38.2° N
+
+── November 2026 ─────────────────────────────────────────────────────
+    2026-11-06  Fri  slack 10:23  ebb -2.6 kts @ 13:38  end 17:38  (7h15m)  next flood +2.9 @ 20:16  [9h53m to flood]  [6.5]
+     🌘 29.6°  decl -9.2°  dist 389k km  apo in 7d  alt 41.7° S
+▶   2026-11-07  Sat  slack 10:58  ebb -2.8 kts @ 14:16  end 18:27  (7h29m)  next flood +3.1 @ 21:07  [10h09m to flood]  [6.7]
+     🌑 17.9°  decl -14.8°  dist 393k km  apo in 6d  alt 36.4° S
+▶   2026-11-08  Sun  slack 11:31  ebb -2.8 kts @ 14:51  end 19:10  (7h39m)  next flood +3.3 @ 21:54  [10h23m to flood]  [6.7]
+     🌑 7.3°  decl -19.6°  dist 396k km  apo in 5d  alt 31.7° S
+  ? 2026-11-09  Mon  slack 12:05  ebb -2.8 kts @ 15:22  end 19:51  (7h46m)  next flood +3.3 @ 22:39  [10h34m to flood]  [4.7]
+     🌑 7.9°  decl -23.4°  dist 399k km  apo in 4d  alt 27.8° S
+  ? 2026-11-10  Tue  slack 12:38  ebb -2.6 kts @ 15:49  end 20:27  (7h49m)  next flood +3.2 @ 23:21  [10h43m to flood]  [4.5]
+     🌑 18.3°  decl -26.1°  dist 401k km  apo in 3d  alt 24.9° S
+▶   2026-11-22  Sun  slack 10:19  ebb -2.9 kts @ 13:21  end 17:36  (7h17m)  next flood +2.7 @ 20:33  [10h14m to flood]  [6.8]
+     🌔 154.0°  decl +17.5°  dist 367k km  peri in 3d  alt -35.3° N
+    2026-11-23  Mon  slack 10:53  ebb -3.2 kts @ 13:52  end 18:18  (7h25m)  next flood +3.1 @ 21:20  [10h27m to flood]  [7.1]
+     🌕 167.4°  decl +22.4°  dist 363k km  peri in 2d  alt -30.5° N
+    2026-11-24  Tue  slack 11:31  ebb -3.4 kts @ 14:29  end 19:00  (7h29m)  next flood +3.4 @ 22:07  [10h36m to flood]  [7.2]
+     🌕 174.4°  decl +25.9°  dist 360k km  peri in 1d  alt -26.6° N
+  ? 2026-11-25  Wed  slack 12:13  ebb -3.4 kts @ 15:10  end 19:43  (7h30m)  next flood +3.5 @ 22:52  [10h39m to flood]  [5.2]
+     🌕 162.2°  decl +27.6°  dist 359k km  peri in 0d  alt -24.2° NNW
+ H? 2026-11-26  Thu  slack 12:59  ebb -3.3 kts @ 15:56  end 20:27  (7h28m)  next flood +3.5 @ 23:39  [10h40m to flood]  [5.0]  (Thanksgiving Day)
+     🌖 148.1°  decl +27.0°  dist 360k km  peri 1d ago  alt -23.7° NNW
+
+── December 2026 ─────────────────────────────────────────────────────
+▶   2026-12-06  Sun  slack 10:23  ebb -2.6 kts @ 13:44  end 18:09  (7h46m)  next flood +3.0 @ 20:53  [10h30m to flood]  [6.7]
+     🌘 25.6°  decl -22.3°  dist 399k km  apo in 5d  alt 28.9° S
+    2026-12-07  Mon  slack 10:59  ebb -2.6 kts @ 14:16  end 18:50  (7h51m)  next flood +3.1 @ 21:38  [10h39m to flood]  [6.7]
+     🌑 14.6°  decl -25.3°  dist 402k km  apo in 3d  alt 25.9° S
+    2026-12-08  Tue  slack 11:35  ebb -2.4 kts @ 14:48  end 19:29  (7h54m)  next flood +3.1 @ 22:20  [10h45m to flood]  [6.4]
+     🌑 5.3°  decl -27.1°  dist 404k km  apo in 2d  alt 24.1° S
+  ? 2026-12-09  Wed  slack 12:11  ebb -2.3 kts @ 15:21  end 20:05  (7h54m)  next flood +3.1 @ 23:00  [10h49m to flood]  [4.2]
+     🌑 9.7°  decl -27.6°  dist 405k km  apo in 1d  alt 23.4° S
+  ? 2026-12-10  Thu  slack 12:48  ebb -2.1 kts @ 15:55  end 20:38  (7h50m)  next flood +3.0 @ 23:38  [10h50m to flood]  [4.0]
+     🌑 20.2°  decl -26.7°  dist 406k km  apo in 0d  alt 23.9° S
+    2026-12-22  Tue  slack 10:24  ebb -3.0 kts @ 13:23  end 18:01  (7h37m)  next flood +3.1 @ 21:01  [10h37m to flood]  [7.0]
+     🌕 161.0°  decl +27.0°  dist 359k km  peri in 2d  alt -25.9° N
+    2026-12-23  Wed  slack 11:11  ebb -3.1 kts @ 14:07  end 18:48  (7h37m)  next flood +3.4 @ 21:49  [10h38m to flood]  [7.0]
+     🌕 174.4°  decl +27.5°  dist 356k km  peri in 1d  alt -24.8° N
+  ? 2026-12-24  Thu  slack 12:01  ebb -3.0 kts @ 14:58  end 19:35  (7h34m)  next flood +3.5 @ 22:35  [10h34m to flood]  [4.8]
+     🌕 168.5°  decl +25.8°  dist 356k km  peri in 0d  alt -25.9° NNW
+ H? 2026-12-25  Fri  slack 12:52  ebb -2.9 kts @ 15:54  end 20:21  (7h29m)  next flood +3.6 @ 23:21  [10h29m to flood]  [4.6]  (Christmas Day)
+     🌖 154.2°  decl +22.1°  dist 358k km  peri 2d ago  alt -28.8° NNW
+
