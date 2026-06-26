@@ -1,0 +1,9 @@
+[project]
+name = "tidal-currents-filter"
+version = "0.1.0"
+description = "Find favorable sailing windows in NOAA current prediction data"
+requires-python = ">=3.11"
+dependencies = ["holidays", "skyfield"]
+
+[project.optional-dependencies]
+dev = ["pytest"]

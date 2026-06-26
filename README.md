@@ -42,6 +42,33 @@ Flag columns before the date:
 | `--after` | — | Only show dates on or after `YYYY-MM-DD` |
 | `--before` | — | Only show dates on or before `YYYY-MM-DD` |
 
+## Lunar data (`--lunar`)
+
+```bash
+uv run current-filter.py data/SFB1202_17_Annual_2026.txt --lunar
+```
+
+Prints a moon data sub-line under each candidate. On first use, `data/de421.bsp` (~13 MB, JPL planetary ephemeris, valid through 2050) is downloaded automatically.
+
+```
+▶   2026-10-18  Sun  slack 10:42  ebb -2.1 kts @ 13:30  end 17:15  (6h33m)  next flood +2.8 @ 19:45  [4h03m to flood]  [4.2]
+     🌔 108.0°  decl +18.4°  dist 382k km  peri in 3d  alt 41.0° WSW
+```
+
+### Fields
+
+**`🌔 108.0°` — phase and elongation from the sun**
+Elongation is the moon's angular distance from the sun: 0° = new moon, 180° = full moon. Near 0° or 180° (within ~45°) you're in a spring tide period — stronger ebbs, more current assist at the Gate, bigger tidal range. Near 90° or 270° (quarter moons) you're in neap tides — milder ebbs, calmer conditions.
+
+**`decl +18.4°` — lunar declination**
+The moon's angle north (+) or south (−) of the equator. This is the dominant driver of SF Bay's *diurnal inequality* — the unevenness between the two daily tidal cycles. When the moon is far from the equator (high declination), the two daily ebbs become very unequal: the afternoon ebb this script selects is the *weaker* one, so ebb speeds are mild. When the moon is near the equator (declination near 0°), both daily cycles become more equal and the afternoon ebb is stronger. Declination cycles through its full ±28° range roughly every 27 days.
+
+**`dist 382k km  peri in 3d` — distance and perigee/apogee trajectory**
+The moon's distance from Earth varies from ~356,000 km (perigee, closest) to ~406,000 km (apogee, farthest). Closer = stronger gravitational pull = bigger tidal range = stronger ebbs. "peri in 3d" means tides are currently strengthening toward a perigee; "apo 2d ago" means you're past the weakest point and recovering. The perigee/apogee cycle repeats roughly every 27.5 days, offset from the ~29.5-day phase cycle, so the two reinforce unpredictably — a perigee coinciding with a spring tide (new or full moon) produces the strongest conditions of all.
+
+**`alt 41.0° WSW` — moon altitude and bearing at slack time**
+The moon's elevation above the horizon and compass direction at the moment of the qualifying slack. Connects the abstract tidal numbers to something you can look up and see. Negative altitude means the moon has already set (or hasn't risen) at departure time.
+
 ## Data
 
 Station **SFB1202_17** — Golden Gate Bridge, 0.88 nm NE. Data files for 2026–2028 are included in `data/`. Additional years can be downloaded from:

@@ -16,6 +16,26 @@ uv run current-filter.py data/SFB1202_17_Annual_2026.txt --after 2026-07-01 --be
 
 The script uses PEP 723 inline dependency metadata (`# /// script` block at top); `uv run` handles the `holidays` package automatically with no setup required.
 
+## Running tests
+
+```bash
+uv run pytest tests/ -v
+```
+
+A `pyproject.toml` exists for test dependencies (pytest, skyfield). The PEP 723 `# /// script` block only applies when running the script itself via `uv run`; pytest needs the separate `pyproject.toml`.
+
+## Testing gotcha: importing the hyphenated script
+
+`current-filter.py` can't be imported with a normal `import` statement. Tests use `importlib.util.spec_from_file_location()` and register the module in `sys.modules` (required for Python 3.13 dataclass validation). See `tests/test_current_filter.py` for the boilerplate.
+
+## Lunar feature (`--lunar`)
+
+```bash
+uv run current-filter.py data/SFB1202_17_Annual_2026.txt --lunar
+```
+
+Prints a moon data sub-line under each candidate: phase emoji, elongation from sun, declination, distance + perigee/apogee trajectory, altitude/azimuth at slack time. Uses `skyfield` + JPL ephemeris `data/de421.bsp` (gitignored, ~13 MB, auto-downloaded on first use from `https://ssd.jpl.nasa.gov/ftp/eph/planets/bsp/de421.bsp`).
+
 ## Architecture
 
 **Data flow:** `parse_header_years` + `parse_events` → `find_candidates` → filter → `format_report`
@@ -35,7 +55,7 @@ The script uses PEP 723 inline dependency metadata (`# /// script` block at top)
 NOAA annual current prediction files for station SFB1202_17 (Golden Gate Bridge, 0.88 nm NE). Files in `data/` cover 2026–2028. Download additional years from:
 `https://tidesandcurrents.noaa.gov/noaacurrents/annual.html?id=SFB1202_17`
 
-File format: whitespace-delimited, `Date Time Event Speed` with `#` comment header. The `# From:` header line gives the date range and is used to load the correct holiday years.
+File format: whitespace-delimited, `Date Time Event Speed` with `#` comment header. The `# From:` header line gives the date range and is used to load the correct holiday years. The `# Latitude:` and `# Longitude:` header lines give the station coordinates (used by `--lunar` for altitude/azimuth). NOAA timestamps are LST/LDT (Pacific local time with DST); convert to UTC via `ZoneInfo('America/Los_Angeles')`.
 
 ## Domain context
 
